@@ -28,10 +28,9 @@
 /** Colors - descriptive color variables */
 /*-------------------------------------------- */
 
-/* .eg */
-/* @red: red; */
-/* @dark-red: brickred; */
-
+@blue: #006699;
+@ghost: ghostwhite;
+@white: #fff;
 
 /*-------------------------------------------- */
 /** Boilerplate Variables
@@ -47,10 +46,10 @@
 /*-------------------------------------------- */
 
 
-@body-bg-color: silver;
-@page-container-bg-color: ghostwhite;
+@body-bg-color: @ghost;
+@page-container-bg-color: @white;
 
-@page-container-width: 1140px;
+@page-container-width: 960px;
 @page-container-padding: 20px;
 
 
@@ -66,17 +65,17 @@
 
 @paragraph-margin: 20px;
 
-@link-color-default: limegreen;
-@link-color-hover: limegreen;
-@link-color-active: limegreen;
+@link-color-default: @blue;
+@link-color-hover: @blue;
+@link-color-active: @blue;
 
-@base-font-color: limegreen;
+@base-font-color: black;
 
-@text-selection-bg-color: blue;
-@text-selection-foreground-color: pink;
+@text-selection-bg-color: @blue;
+@text-selection-foreground-color: @white;
 
-@heading-color-primary: limegreen;
-@heading-color-secondary: limegreen;
+@heading-color-primary: @blue;
+@heading-color-secondary: @blue;
 
 @h1-font-size: 40;
 @h2-font-size: 32;
@@ -85,12 +84,12 @@
 @h5-font-size: 16;
 @h6-font-size: 16;
 
-@h1-font-color: @base-font-color;
-@h2-font-color: @base-font-color;
-@h3-font-color: @base-font-color;
-@h4-font-color: @base-font-color;
-@h5-font-color: @base-font-color;
-@h6-font-color: @base-font-color;
+@h1-font-color: @heading-color-primary;
+@h2-font-color: @heading-color-secondary;
+@h3-font-color: @heading-color-secondary;
+@h4-font-color: @heading-color-secondary;
+@h5-font-color: @heading-color-secondary;
+@h6-font-color: @heading-color-secondary;
 
 
 /*-------------------------------------------- */
