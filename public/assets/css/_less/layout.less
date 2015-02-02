@@ -37,3 +37,13 @@
 	padding-right: @page-container-padding;
     padding-left: @page-container-padding;
 }
+
+.content {
+    width: 75%;
+    margin: 0 auto;
+
+@import "_less/modules/header";
+    @media screen and (max-width: @tablet-bp-w) {
+        width: 90%;
+    }
+}
