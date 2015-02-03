@@ -21,6 +21,7 @@ h1,
     color: @h1-font-color;
     .font-size-rems(@h1-font-size);
     font-weight: @bold-font-weight;
+    font-family: @heading-font-primary;
 }
 
 h2,
@@ -28,13 +29,15 @@ h2,
     color: @h2-font-color;
     .font-size-rems(@h2-font-size);
     font-weight: @bold-font-weight;
+    font-family: @heading-font-secondary;
 }
 
 h3,
 .h3 {
     color: @h3-font-color;
     .font-size-rems(@h3-font-size);
-    font-weight: @bold-font-weight;
+    // font-weight: @bold-font-weight;
+    font-family: @heading-font-secondary;
 }
 
 h4,
@@ -42,6 +45,7 @@ h4,
     color: @h4-font-color;
     .font-size-rems(@h4-font-size);
     font-weight: @bold-font-weight;
+    font-family: @heading-font-secondary;
 }
 
 h5,
@@ -49,6 +53,7 @@ h5,
     color: @h5-font-color;
     .font-size-rems(@h5-font-size);
     font-weight: @bold-font-weight;
+    font-family: @heading-font-secondary;
 }
 
 h6,
@@ -56,13 +61,16 @@ h6,
     color: @h6-font-color;
     .font-size-rems(@h6-font-size);
     font-weight: @bold-font-weight;
+    font-family: @heading-font-secondary;
 }
 
 p {
     margin-bottom: @paragraph-margin;
+    font-family: @droid-serif;
 }
 
 a {
+    font-family: @droid-serif;
     color: @link-color-default;
 
     &:hover {

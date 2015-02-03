@@ -10,13 +10,18 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="assets/css/main.css">
+
     </head>
     <body class="page-container-flex">
         <div class="content-container">
             <%- partial("_partials/header") %>
     		<%- yield %>
+            <%- partial("_partials/footer") %>
         </div>
+        
 
         <%- partial("_partials/scripts") %>
     </body>

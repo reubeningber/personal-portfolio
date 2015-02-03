@@ -18,6 +18,11 @@
 	margin: 0;
 	padding: 0;
 	line-height: .85;
+
+	a {
+		display: block;
+		text-decoration: none;
+	}
 }
 
 .site-nav {
@@ -43,7 +48,8 @@
 			.transition(border-color, .2s, linear)
 		}
 
-		&:hover {
+		&:hover,
+		&.active {
 			a {
 				border-color: lighten(@blue, 10%)
 			}
