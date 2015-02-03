@@ -16,13 +16,9 @@
 
     </head>
     <body class="page-container-flex">
-        <div class="content-container">
-            <%- partial("_partials/header") %>
-    		<%- yield %>
-            <%- partial("_partials/footer") %>
-        </div>
-        
-
+        <%- partial("_partials/header") %>
+		<%- yield %>
+        <%- partial("_partials/footer") %>
         <%- partial("_partials/scripts") %>
     </body>
 </html>
