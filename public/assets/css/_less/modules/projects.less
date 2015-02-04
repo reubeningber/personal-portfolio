@@ -2,10 +2,24 @@
 	display: block;
 	margin: 0 auto;
 	padding: 0 15px;
+
 }
+.projects {
+	header {
+		// border-bottom: 5px solid @blue;
+		margin: 0 auto 25px auto;
+		padding: 15px 0;
+
+		h2 {
+			margin: 0;
+			padding: 0;
+		}
+	}
+}
+
 .project-item {
-	.calc(width, ~'25% - 15px');
-	margin-bottom: 20px;
+	.calc(width, ~'25% - 25px');
+	margin-bottom: 10px;
 	max-height: 350px;
 	overflow: hidden;
 	// padding: 0 5px;
@@ -85,3 +99,71 @@
 		}
 	}
 }
+
+.white-popup {
+	position: relative;
+	background: #FFF;
+	padding: 20px;
+	width: auto;
+	max-width: @page-container-width;
+	margin: 20px auto;
+}
+
+.browser-frame {
+    border-radius: 5px;
+    border: 2px solid #CCC;
+    width: 100%;
+    margin: 15px auto;
+    max-width: 1004px;
+    background: @white;
+}
+
+.browser-top-bar {
+    border-bottom: 2px solid #CCC;
+    width: 100%;
+    float: left;
+}
+
+.browser-button-wrapper {
+    padding: 9px 0 0 10px;
+    float: left;
+}
+
+.browser-button {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    
+    &.red {
+    	background-color: red;
+    }
+
+    &.yellow {
+    	background-color: yellow;
+    }
+
+    &.green {
+    	background-color: green;
+    }
+}
+
+.browser-address {
+    width: 92%;
+    border-radius: 5px;
+    background: #efefef;
+    height: 25px;
+    float: right;
+    margin: 10px;
+}
+
+.browser-container img {
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .browser-address {
+        width: 80%;
+    }
+}
+
