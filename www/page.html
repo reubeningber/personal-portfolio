@@ -7,29 +7,51 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Reuben A. Ingber | Front-End Web Developer</title>
-        <meta name="description" content="">
+        <meta name="description" content="Reuben Ingber is a front end web developer and designer, currently looking for full time &amp; freelance opportunities">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <!-- Place this data between the <head> tags of your website -->
+        <title>Reuben A. Ingber | Front-End Web Developer</title>
+        <meta name="description" content="Reuben Ingber is a front end web developer and designer, currently looking for full time &amp; freelance opportunities" />
+
+        <!-- Twitter Card data -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@reubeningber">
+        <meta name="twitter:creator" content="@reubeningber">
+        <meta name="twitter:title" content="Reuben A. Ingber | Front-End Web Developer">
+        <meta name="twitter:description" content="Reuben Ingber is a front end web developer and designer, currently looking for full time &amp; freelance opportunities">
+        <meta name="twitter:image:src" content="http://www.reubeningber.com/assets/img/reuben.jpg">
+
+        <!-- Open Graph data -->
+        <meta property="og:title" content="Reuben A. Ingber | Front-End Web Developer" />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="http://reubeningber.com" />
+        <meta property="og:image" content="http://www.reubeningber.com/assets/img/reuben.jpg" />
+        <meta property="og:description" content="Reuben Ingber is a front end web developer and designer, currently looking for full time &amp; freelance opportunities" /> 
+        <meta property="og:site_name" content="Reuben A. Ingber | Front-End Web Developer" />
+
+        <!-- Favicon  -->
+
         <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="assets/css/main.css">
 
     </head>
-    <body class="page-container-flex">
+    <body>
         <header class="site-header page-container-flex">
 	<div class="hd-left">
-		<h1 class="site-title"><a href="/">Reuben <br> Ingber</a></h1>
+		<h1 class="site-title"><a href="/">Reuben Ingber</a></h1>
 	</div>
 
 	<div class="hd-right">
 		<nav class="site-nav">
 			<ul class="ui-list">
-				<li class="active"><a href="#">About</a></li>
-				<li><a href="#">Resume</a></li>
-				<li><a href="/portfolio.html">Portfolio</a></li>
-				<li><a href="/blog.html">Blog</a></li>
-				<li><a href="#">Podcast</a></li>
-				<li class="contact"><a href="#">Contact</a></li>
+				<!-- <li class="active"><a href="#">About</a></li> -->
+				<li><a href="assets/downloads/reuben_ingber.pdf">Resume</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<!-- <li><a href="/blog.html">Blog</a></li> -->
+				<li><a href="http://howtoholdapencil.com" target="_blank">Podcast</a></li>
+				<li class="contact"><a href="mailto:reuben.ingber@gmail.com">Contact</a></li>
 			</ul>
 		</nav>
 	</div>
@@ -46,25 +68,30 @@
 
 </article>
         <footer class="site-footer">
-	<div class="icons is-centered">
-		<a class="social-ico twitter" href="http://twitter.com/reubeningber" target="_blank"><i class="fa fa-twitter"></i></a>
+	<div class="page-container-flex">
+		<div class="icons is-centered">
+			<a class="social-ico twitter" href="http://twitter.com/reubeningber" target="_blank"><i class="fa fa-twitter"></i></a>
 
-		<a class="social-ico github" href="{{site.meta['Github']}}" target="_blank"><i class="fa fa-github"></i></a>
+			<a class="social-ico github" href="https://github.com/reubeningber" target="_blank"><i class="fa fa-github"></i></a>
 
-		<a class="social-ico email" href="mailto:reuben.ingber@gmail.com" target="_blank"><i class="fa fa-paper-plane"></i></a>
-		
-		<a class="social-ico podcast" href="http://howtoholdapencil.com" target="_blank"><i class="fa fa-microphone"></i></a>
-		
-		<a class="social-ico facebook" href="http://facebook.com/reubenaingber" target="_blank"><i class="fa fa-facebook"></i></a>
+			<a class="social-ico email" href="mailto:reuben.ingber@gmail.com" target="_blank"><i class="fa fa-paper-plane"></i></a>
+			
+			<a class="social-ico podcast" href="http://howtoholdapencil.com" target="_blank"><i class="fa fa-microphone"></i></a>
+			
+			<a class="social-ico facebook" href="http://facebook.com/reubenaingber" target="_blank"><i class="fa fa-facebook"></i></a>
 
-		<a class="social-ico instagram" href="http://instagram.com/reubeningber" target="_blank"><i class="fa fa-instagram"></i></a>
+			<a class="social-ico instagram" href="http://instagram.com/reubeningber" target="_blank"><i class="fa fa-instagram"></i></a>
+		</div>
+
+		<span class="credits is-centered">&copy; 2015 Reuben Ingber</span>
 	</div>
-
-	<span class="credits is-centered">&copy; 2015 Reuben Ingber</span>
 </footer>
-        
-    <script src="assets/js/built/vendor.min.js"></script>
-    <script src="assets/js/built/src.min.js"></script>
-
+        <script src="assets/js/vendor/jquery-1.11.1.min.js"></script>
+<script src="assets/js/vendor/imagesloaded.pkgd.min.js"></script>
+<script src="assets/js/vendor/masonry.pkgd.min.js"></script>
+<script src="assets/js/vendor/jquery.magnific-popup.min.js"></script>
+<script src="assets/js/vendor/jquery.fittext.js"></script>
+<script src="assets/js/vendor/cool-share.js"></script>
+<script src="assets/js/scripts.js"></script>
     </body>
 </html>

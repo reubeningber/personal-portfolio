@@ -7,182 +7,550 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Reuben A. Ingber | Front-End Web Developer</title>
-        <meta name="description" content="">
+        <meta name="description" content="Reuben Ingber is a front end web developer and designer, currently looking for full time &amp; freelance opportunities">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <!-- Place this data between the <head> tags of your website -->
+        <title>Reuben A. Ingber | Front-End Web Developer</title>
+        <meta name="description" content="Reuben Ingber is a front end web developer and designer, currently looking for full time &amp; freelance opportunities" />
+
+        <!-- Twitter Card data -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@reubeningber">
+        <meta name="twitter:creator" content="@reubeningber">
+        <meta name="twitter:title" content="Reuben A. Ingber | Front-End Web Developer">
+        <meta name="twitter:description" content="Reuben Ingber is a front end web developer and designer, currently looking for full time &amp; freelance opportunities">
+        <meta name="twitter:image:src" content="http://www.reubeningber.com/assets/img/reuben.jpg">
+
+        <!-- Open Graph data -->
+        <meta property="og:title" content="Reuben A. Ingber | Front-End Web Developer" />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="http://reubeningber.com" />
+        <meta property="og:image" content="http://www.reubeningber.com/assets/img/reuben.jpg" />
+        <meta property="og:description" content="Reuben Ingber is a front end web developer and designer, currently looking for full time &amp; freelance opportunities" /> 
+        <meta property="og:site_name" content="Reuben A. Ingber | Front-End Web Developer" />
+
+        <!-- Favicon  -->
+
         <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="assets/css/main.css">
 
     </head>
-    <body class="page-container-flex">
+    <body>
         <header class="site-header page-container-flex">
 	<div class="hd-left">
-		<h1 class="site-title"><a href="/">Reuben <br> Ingber</a></h1>
+		<h1 class="site-title"><a href="/">Reuben Ingber</a></h1>
 	</div>
 
 	<div class="hd-right">
 		<nav class="site-nav">
 			<ul class="ui-list">
-				<li class="active"><a href="#">About</a></li>
-				<li><a href="#">Resume</a></li>
-				<li><a href="/portfolio.html">Portfolio</a></li>
-				<li><a href="/blog.html">Blog</a></li>
-				<li><a href="#">Podcast</a></li>
-				<li class="contact"><a href="#">Contact</a></li>
+				<!-- <li class="active"><a href="#">About</a></li> -->
+				<li><a href="assets/downloads/reuben_ingber.pdf">Resume</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<!-- <li><a href="/blog.html">Blog</a></li> -->
+				<li><a href="http://howtoholdapencil.com" target="_blank">Podcast</a></li>
+				<li class="contact"><a href="mailto:reuben.ingber@gmail.com">Contact</a></li>
 			</ul>
 		</nav>
 	</div>
 	
 </header>
 		<section class="about">
-	<img src="http://placehold.it/200x200" alt="">
+	<div class="content">
+		<div class="img-container">
+			<img src="assets/img/reuben.jpg" alt="">
+		</div>
 
-	<div class="content is-centered">
-		<h3>Welcome I'm <strong>Reuben Ingber</strong>, a front-end web developer, designer, <a href="http://howtoholdapencil.com" class="" target="_blank">podcast host</a>, 
-			<span class="amp">&</span>  runner.</h3>
-
-	<!-- 	<p>I am front-end web developer and designer living in New York City. My skills include HTML5, CSS3, Javascript, jQuery, Wordpress, Shopify, Siteleaf, and more. I've had the opportunity to work with clients like Scholastic Books, Rolling Stone Magazine, US Magazine Men's Journal and many others.</p>
-
-		<p>I write modern HTML, CSS and Javascript to build responsive web projects for clients of all sizes. Primarily I've developed on static and CMS driven websites. As well I’ve created several robust and responsive email templates.</p>
-
-		<p><a href="http://howtoholdapencil.com">How to Hold a Pencil</a>, is a podcast I launched about learning web development and design. I have had the foturnate opportunity to interview industry leaders like <a href="http://howtoholdapencil.com/episodes/018/">Chris Coyier</a> of CSS Tricks, <a href="http://howtoholdapencil.com/episodes/009/">Ryan Carson</a> of Treehouse, <a href="http://howtoholdapencil.com/episodes/023/">Debbie Millman</a> of Sterling Brands and <a href="http://howtoholdapencil.com/episodes/">many more</a>.</p> -->
-
-		<h4>Currently I am looking for full-time and freelance opportunities, if my skills match your needs lets <a href="mailto:reuben.ingber@gmail.com">talk</a>!</h4>
+		<p>A skilled front end web developer and designer with a focus on modular HTML5, CSS3, and Javascript. I write modern and well organized code that enhances performance and user experience. I have the ability to learn and implement new technologies rapidly. I host <a href="http://howtoholdapencil.com">How to Hold a Pencil</a> a podcast about learning design and development. <strong>Currently I am seeking new full time and freelance opportunities.</strong></p>
 	</div>
 </section>
-<section class="projects is-centered">
-	<h2>Projects</h2>
-
+<section class="projects is-centered" id="portfolio">
+	<header class="page-container-flex is-centered">
+		<h2>Portfolio</h2>
+	</header>
 	<div id="project-container">
 		<div class="project-item is-centered">
-			<a href="/single-project.html">
-				<img src="assets/img/scholastic_assessment.png" alt="">
-				<div class="project-details">
-					<span class="project-title">Scholastic Assessment</span>
+			<img src="assets/img/scholastic_assessment.png" alt="">
+			<div class="project-details">
+				<div class="project-details-content">
+					<span class="title">Scholastic Assessment</span>
+					<span class="role">Harp.js | HTML5 | CSS3</span>
+					<a href="#popup-1" class="popup-link icon-link"><i class="fa fa-search-plus"></i></a>
 				</div>
-			</a>
+				
+			</div>
+			<div id="popup-1" class="white-popup mfp-hide single-project" style="background-color: #2A6477;">
+				
+				<h2>Scholastic Assessment</h2>
+				 
+			 	<div class="browser-frame">
+			        <div class="browser-top-bar">
+			            <div class="browser-button-wrapper">
+			                <div class="browser-button red"></div>
+			                <div class="browser-button yellow"></div>
+			                <div class="browser-button green"></div>
+			            </div>
+			            <div class="browser-address"></div>
+			        </div>
+			        <div class="browser-container">
+						<img class="project-pop-up-image" src="assets/img/scholastic_assessment.png" alt="">
+			        </div>
+				</div>
+			</div>
 		</div>
 		<div class="project-item w2 h3 is-centered">
-			<a href="/single-project.html">
-				<img src="assets/img/rs_hp.png" alt="">
-				<div class="project-details">
-					<span class="project-title">Rolling Stone Magazine</span>
+			<img src="assets/img/rs_hp.png" alt="">
+			<div class="project-details">
+				<div class="project-details-content">
+					<span class="title">Rolling Stone</span>
+					<span class="role">Custom Templates | HTML5 | CSS3</span>
+					<a href="#popup-2" class="popup-link icon-link"><i class="fa fa-search-plus"></i></a> 
+					<a href="http://rollingstone.com" class="icon-link" target="_blank"><i class="fa fa-link"></i></a>
 				</div>
-			</a>
+			</div>
+			<div id="popup-2" class="white-popup mfp-hide single-project" style="background-color: #EC2227;">
+				<h2>Rolling Stone</h2>
+				
+			 	<div class="browser-frame">
+			        <div class="browser-top-bar">
+			            <div class="browser-button-wrapper">
+			                <div class="browser-button red"></div>
+			                <div class="browser-button yellow"></div>
+			                <div class="browser-button green"></div>
+			            </div>
+			            <div class="browser-address"></div>
+			        </div>
+			        <div class="browser-container">
+						<img class="project-pop-up-image" src="assets/img/rs_hp.png" alt="">
+			        </div>
+			    </div>
+
+		        <div class="browser-frame">
+			        <div class="browser-top-bar">
+			            <div class="browser-button-wrapper">
+			                <div class="browser-button red"></div>
+			                <div class="browser-button yellow"></div>
+			                <div class="browser-button green"></div>
+			            </div>
+			            <div class="browser-address"></div>
+			        </div>
+			        <div class="browser-container">
+						<img class="project-pop-up-image" src="assets/img/rs_section.png" alt="">
+			        </div>
+			    </div>
+
+			    <div class="browser-frame">
+			        <div class="browser-top-bar">
+			            <div class="browser-button-wrapper">
+			                <div class="browser-button red"></div>
+			                <div class="browser-button yellow"></div>
+			                <div class="browser-button green"></div>
+			            </div>
+			            <div class="browser-address"></div>
+			        </div>
+			        <div class="browser-container">
+						<img class="project-pop-up-image" src="assets/img/rs_article.png" alt="">
+			        </div>
+			    </div>
+			</div>
 		</div>
 		<div class="project-item is-centered">
-			<a href="/single-project.html">
-				<img src="assets/img/scholastic_d3.png" alt="">
-				<div class="project-details">
-					<span class="project-title">Scholastic D3 Libraries</span>
+			<img src="assets/img/scholastic_d3.png" alt="">
+			<div class="project-details">
+				<div class="project-details-content">
+					<span class="title">Scholastic D3 Libraries</span>
+					<span class="role">Harp.js | HTML5 | CSS3</span>
+					<a href="#popup-3" class="popup-link icon-link"><i class="fa fa-search-plus"></i></a> 
+					<a href="http://teacher.scholastic.com/products/classroombooks/d3libraries/index.htm" class="icon-link" target="_blank"><i class="fa fa-link"></i></a>
 				</div>
-			</a>
+			</div>
+
+			<div id="popup-3" class="white-popup mfp-hide single-project" style="background-color: #FFDD56;">
+				<h2>Scholastic D3 Libraries</h2>
+				
+				<div class="browser-frame">
+			        <div class="browser-top-bar">
+			            <div class="browser-button-wrapper">
+			                <div class="browser-button red"></div>
+			                <div class="browser-button yellow"></div>
+			                <div class="browser-button green"></div>
+			            </div>
+			            <div class="browser-address"></div>
+			        </div>
+			        <div class="browser-container">
+						<img class="project-pop-up-image" src="assets/img/scholastic_d3.png" alt="">
+			        </div>
+			    </div>
+			</div>
 		</div>
 		<div class="project-item is-centered">
-			<a href="/single-project.html">
-				<img src="assets/img/mj_american_craftsman.png" alt="">
-				<div class="project-details">
-					<span class="project-title">Men's Journal American Craftsman</span>
+			<img src="assets/img/mj_american_craftsman.png" alt="">
+			<div class="project-details">
+				<div class="project-details-content">
+					<span class="title">Men's Journal<br>American Craftsman</span>
+					<span class="role">Custom Template | HTML5 | CSS3</span>
+					<a href="#popup-4" class="popup-link icon-link"><i class="fa fa-search-plus"></i></a> 
+					<a href="http://www.mensjournal.com/do-it-yourself/american-craftsman" class="icon-link" target="_blank"><i class="fa fa-link"></i></a>
 				</div>
-			</a>
+			</div>
+
+			<div id="popup-4" class="white-popup mfp-hide single-project" style="background-color: #D9D9D9;">
+				<h2>Men's Journal American Craftsman</h2>
+
+			    <div class="browser-frame">
+			        <div class="browser-top-bar">
+			            <div class="browser-button-wrapper">
+			                <div class="browser-button red"></div>
+			                <div class="browser-button yellow"></div>
+			                <div class="browser-button green"></div>
+			            </div>
+			            <div class="browser-address"></div>
+			        </div>
+			        <div class="browser-container">
+						<img class="project-pop-up-image" src="assets/img/mj_american_craftsman.png" alt="">
+			        </div>
+			    </div>
+			</div>
 		</div>
 		<div class="project-item is-centered">
-			<a href="/single-project.html">
-				<img src="assets/img/scholastic_hub_open.png" alt="">
-				<div class="project-details">
-					<span class="project-title">Scholastic Classroom Books Hub</span>
+			<img src="assets/img/scholastic_hub_open.png" alt="">
+			<div class="project-details">
+				<div class="project-details-content">
+					<span class="title">Scholastic <br>Classroom Books Hub</span>
+					<span class="role">Knockout.js | HTML5 | CSS3</span>
+					<a href="#popup-5" class="popup-link icon-link"><i class="fa fa-search-plus"></i></a> 
+					<a href="http://teacher.scholastic.com/products/classroombooks/hub" class="icon-link" target="_blank"><i class="fa fa-link"></i></a>
 				</div>
-			</a>
+			</div>
+
+			<div id="popup-5" class="white-popup mfp-hide single-project" style="background-color: #9D0836;">
+				<h2>Scholastic Classroom Books Hub</h2>
+
+				<div class="browser-frame">
+			        <div class="browser-top-bar">
+			            <div class="browser-button-wrapper">
+			                <div class="browser-button red"></div>
+			                <div class="browser-button yellow"></div>
+			                <div class="browser-button green"></div>
+			            </div>
+			            <div class="browser-address"></div>
+			        </div>
+			        <div class="browser-container">
+						<img class="project-pop-up-image" src="assets/img/scholastic_hub.png" alt="">
+			        </div>
+			    </div>
+
+			    <div class="browser-frame">
+			        <div class="browser-top-bar">
+			            <div class="browser-button-wrapper">
+			                <div class="browser-button red"></div>
+			                <div class="browser-button yellow"></div>
+			                <div class="browser-button green"></div>
+			            </div>
+			            <div class="browser-address"></div>
+			        </div>
+			        <div class="browser-container">
+						<img class="project-pop-up-image" src="assets/img/scholastic_hub_open.png" alt="">
+			        </div>
+			    </div>
+			</div>
 		</div>
 		<div class="project-item w2 h2 is-centered">
-			<a href="/single-project.html">
-				<img src="assets/img/us_sag.png" alt="">
-				<div class="project-details">
-					<span class="project-title">US Magazine - SAG Awards</span>
+			<img src="assets/img/us_sag.png" alt="">
+			<div class="project-details">
+				<div class="project-details-content">
+					<span class="title">US Weekly<br>SAG Awards Hub</span>
+					<span class="role">Custom Template | HTML5 | CSS3</span>
+					<a href="#popup-6" class="popup-link icon-link"><i class="fa fa-search-plus"></i></a> 
+					<a href="http://usmagazine.com/sag-awards" class="icon-link" target="_blank"><i class="fa fa-link"></i></a>
 				</div>
-			</a>
+			</div>
+
+			<div id="popup-6" class="white-popup mfp-hide single-project" style="background-color: #743296;">
+				<h2>US <br> Screen Actors Guild Awards Hub</h2>
+				
+				<div class="browser-frame">
+			        <div class="browser-top-bar">
+			            <div class="browser-button-wrapper">
+			                <div class="browser-button red"></div>
+			                <div class="browser-button yellow"></div>
+			                <div class="browser-button green"></div>
+			            </div>
+			            <div class="browser-address"></div>
+			        </div>
+			        <div class="browser-container">
+						<img class="project-pop-up-image" src="assets/img/us_sag.png" alt="">
+			        </div>
+			    </div>				
+			</div>
 		</div>
 		<div class="project-item is-centered">
-			<a href="/single-project.html">
-				<img src="assets/img/scholastic_sap.png" alt="">
-				<div class="project-details">
-					<span class="project-title">Scholastic Achievement Partners</span>
+			<img src="assets/img/scholastic_sap.png" alt="">
+			<div class="project-details">
+				<div class="project-details-content">
+					<span class="title">Scholastic Achievement Partners</span>
+					<span class="role">Harp.js | HTML5 | CSS3</span>
+					<a href="#popup-7" class="popup-link icon-link"><i class="fa fa-search-plus"></i></a> 
+					<a href="http://scholastic.com/sap" class="icon-link" target="_blank"><i class="fa fa-link"></i></a>
 				</div>
-			</a>
+			</div>
+
+			<div id="popup-7" class="white-popup mfp-hide single-project" style="background-color: #E30000;">
+				<h2>Scholastic Achievement Partners</h2>
+				
+				<div class="browser-frame">
+			        <div class="browser-top-bar">
+			            <div class="browser-button-wrapper">
+			                <div class="browser-button red"></div>
+			                <div class="browser-button yellow"></div>
+			                <div class="browser-button green"></div>
+			            </div>
+			            <div class="browser-address"></div>
+			        </div>
+			        <div class="browser-container">
+						<img class="project-pop-up-image" src="assets/img/scholastic_sap.png" alt="">
+			        </div>
+			    </div>
+			</div>
+		</div>
+		
+		<div class="project-item is-centered w2 h3">
+			<img src="assets/img/elsa.png" alt="">
+			<div class="project-details">
+				<div class="project-details-content">
+					<span class="title">Elsa Isaac</span>
+					<span class="role">Wordpress | HTML5 | CSS3 | Javascript</span>
+					<a href="#popup-8" class="popup-link icon-link"><i class="fa fa-search-plus"></i></a> 
+					<a href="http://elsaisaac.com/" class="icon-link" target="_blank"><i class="fa fa-link"></i></a>
+				</div>
+			</div>
+
+			<div id="popup-8" class="white-popup mfp-hide single-project" style="background-color: #F1CC71;">
+				<h2>Elsa Isaac <br>Fashion Stylist</h2>
+				
+				<div class="browser-frame">
+			        <div class="browser-top-bar">
+			            <div class="browser-button-wrapper">
+			                <div class="browser-button red"></div>
+			                <div class="browser-button yellow"></div>
+			                <div class="browser-button green"></div>
+			            </div>
+			            <div class="browser-address"></div>
+			        </div>
+			        <div class="browser-container">
+						<img class="project-pop-up-image" src="assets/img/elsa.png" alt="">
+			        </div>
+			    </div>
+			</div>
+		</div>
+
+		<div class="project-item is-centered">
+			<img src="assets/img/us_amas.png" alt="">
+			<div class="project-details">
+				<div class="project-details-content">
+					<span class="title">US Weekly<br>American Music Awards</span>
+					<span class="role">Custom Template | HTML5 | CSS3</span>
+					<a href="#popup-9" class="popup-link icon-link"><i class="fa fa-search-plus"></i></a> 
+					<a href="http://usmagazine.com/american-music-awards" class="icon-link" target="_blank"><i class="fa fa-link"></i></a>
+				</div>
+			</div>
+
+			<div id="popup-9" class="white-popup mfp-hide single-project" style="background-color: #F1CC71;">
+				<h2>US Weekly<br>American Music Awards Hub</h2>
+				
+				<div class="browser-frame">
+			        <div class="browser-top-bar">
+			            <div class="browser-button-wrapper">
+			                <div class="browser-button red"></div>
+			                <div class="browser-button yellow"></div>
+			                <div class="browser-button green"></div>
+			            </div>
+			            <div class="browser-address"></div>
+			        </div>
+			        <div class="browser-container">
+						<img class="project-pop-up-image" src="assets/img/us_amas.png" alt="">
+			        </div>
+			    </div>
+			</div>
+		</div>
+		
+		<div class="project-item is-centered">
+			<img src="assets/img/hthap.png" alt="">
+			<div class="project-details">
+				<div class="project-details-content">
+					<span class="title">How to Hold a Pencil</span>
+					<span class="role">HTML5 | CSS3 | Javascript</span>
+					<a href="#popup-14" class="popup-link icon-link"><i class="fa fa-search-plus"></i></a> 
+					<a href="http://howtoholdapencil.com" class="icon-link" target="_blank"><i class="fa fa-link"></i></a>
+				</div>
+			</div>
+			<div id="popup-14" class="white-popup mfp-hide single-project" style="background-color: #9F9D8C;">
+				<h2>How to Hold a Pencil</h2>
+				
+				<div class="browser-frame">
+			        <div class="browser-top-bar">
+			            <div class="browser-button-wrapper">
+			                <div class="browser-button red"></div>
+			                <div class="browser-button yellow"></div>
+			                <div class="browser-button green"></div>
+			            </div>
+			            <div class="browser-address"></div>
+			        </div>
+			        <div class="browser-container">
+						<img class="project-pop-up-image" src="assets/img/hthap.png" alt="">
+			        </div>
+			    </div>
+			</div>
 		</div>
 		<div class="project-item is-centered">
-			<a href="/single-project.html">
-				<img src="assets/img/us_amas.png" alt="">
-				<div class="project-details">
-					<span class="project-title">US Magazine - American Music Awards</span>
-				</div>
-			</a>
-		</div>
-		<div class="project-item is-centered">
-			<a href="/single-project.html">
-				<img src="assets/img/elsa.png" alt="">
-				<div class="project-details">
-					<span class="project-title">Elsa Isaac</span>
-				</div>
-			</a>
-		</div>
-		<div class="project-item is-centered">
-			<a href="/single-project.html">
-				<img src="assets/img/hthap.png" alt="">
-				<div class="project-details">
-					<span class="project-title">How to Hold a Pencil</span>
-				</div>
-			</a>
-		</div>
-		<div class="project-item is-centered">
-			<a href="/single-project.html">
 				<img src="assets/img/rabbi.png" alt="">
 				<div class="project-details">
-					<span class="project-title">Rabbi David Seth Kirshner</span>
+					<div class="project-details-content">
+						<span class="title">Rabbi David Seth Kirshner</span>
+						<span class="role">HTML5 | CSS3 | Javascript</span>
+						<a href="#popup-10" class="popup-link icon-link"><i class="fa fa-search-plus"></i></a> 
+						<a href="http://rabbikirshner.com" class="icon-link" target="_blank"><i class="fa fa-link"></i></a>
+					</div>
 				</div>
-			</a>
+
+				<div id="popup-10" class="white-popup mfp-hide single-project" style="background-color: #ffffff;">
+				<h2 style="color: #000000; border-color: #000000">Rabbi David Seth Kirshner</h2>
+				
+				<div class="browser-frame">
+			        <div class="browser-top-bar">
+			            <div class="browser-button-wrapper">
+			                <div class="browser-button red"></div>
+			                <div class="browser-button yellow"></div>
+			                <div class="browser-button green"></div>
+			            </div>
+			            <div class="browser-address"></div>
+			        </div>
+			        <div class="browser-container">
+						<img class="project-pop-up-image" src="assets/img/rabbi.png" alt="">
+			        </div>
+			    </div>
+			</div>
+		</div>
+		<div class="project-item is-centered w2 h3">
+			<img src="assets/img/temple.png" alt="">
+			<div class="project-details">
+				<div class="project-details-content">
+					<span class="title">Temple Emanu-El</span>
+					<span class="role">Wordpress | HTML5 | CSS3 | Javascript</span>
+					<a href="#popup-11" class="popup-link icon-link"><i class="fa fa-search-plus"></i></a> 
+					<a href="http://templeemanu-el.com" class="icon-link" target="_blank"><i class="fa fa-link"></i></a>
+				</div>
+			</div>
+			<div id="popup-11" class="white-popup mfp-hide single-project" style="background-color: #68BEE1;">
+				<h2>Temple Emanu-el of Closter, N.J.</h2>
+				
+				<div class="browser-frame">
+			        <div class="browser-top-bar">
+			            <div class="browser-button-wrapper">
+			                <div class="browser-button red"></div>
+			                <div class="browser-button yellow"></div>
+			                <div class="browser-button green"></div>
+			            </div>
+			            <div class="browser-address"></div>
+			        </div>
+			        <div class="browser-container">
+						<img class="project-pop-up-image" src="assets/img/temple.png" alt="">
+			        </div>
+			    </div>
+			</div>
 		</div>
 		<div class="project-item is-centered">
-			<a href="/single-project.html">
-				<img src="assets/img/temple.png" alt="">
-				<div class="project-details">
-					<span class="project-title">Temple Emanu-El</span>
+			<img src="assets/img/weddingber.png" alt="">
+			<div class="project-details">
+				<div class="project-details-content">
+					<span class="title">#Weddingber</span>
+					<span class="role">HTML5 | CSS3 | Javascript</span>
+					<a href="#popup-12" class="popup-link icon-link"><i class="fa fa-search-plus"></i></a> 
+					<a href="http://weddingber.com" class="icon-link" target="_blank"><i class="fa fa-link"></i></a>
 				</div>
-			</a>
+			</div>
+			<div id="popup-12" class="white-popup mfp-hide single-project" style="background-color: #12022b;">
+				<h2>Sarah-Beth & Reuben</h2>
+				
+				<div class="browser-frame">
+			        <div class="browser-top-bar">
+			            <div class="browser-button-wrapper">
+			                <div class="browser-button red"></div>
+			                <div class="browser-button yellow"></div>
+			                <div class="browser-button green"></div>
+			            </div>
+			            <div class="browser-address"></div>
+			        </div>
+			        <div class="browser-container">
+						<img class="project-pop-up-image" src="assets/img/weddingber.png" alt="">
+			        </div>
+			    </div>
+			</div>
 		</div>
 		<div class="project-item is-centered">
-			<a href="/single-project.html">
-				<img src="assets/img/weddingber.png" alt="">
-				<div class="project-details">
-					<span class="project-title">#Weddingber</span>
+			<img src="assets/img/us_gift.png" alt="">
+			<div class="project-details">
+				<div class="project-details-content">
+					<span class="title">US Weekly<br>2014 Holiday Gift Guide</span>
+					<span class="role">Custom Template | HTML5 | CSS3</span>
+					<a href="#popup-13" class="popup-link icon-link"><i class="fa fa-search-plus"></i></a> 
+					<a href="http://usmagazine.com/gift-guide" class="icon-link" target="_blank"><i class="fa fa-link"></i></a>
 				</div>
-			</a>
+			</div>
+			<div id="popup-13" class="white-popup mfp-hide single-project" style="background-color: #006E33;">
+				<h2>US Weekly<br> 2014 Holiday Gift Guide</h2>
+				
+				<div class="browser-frame">
+			        <div class="browser-top-bar">
+			            <div class="browser-button-wrapper">
+			                <div class="browser-button red"></div>
+			                <div class="browser-button yellow"></div>
+			                <div class="browser-button green"></div>
+			            </div>
+			            <div class="browser-address"></div>
+			        </div>
+			        <div class="browser-container">
+						<img class="project-pop-up-image" src="assets/img/us_gift.png" alt="">
+			        </div>
+			    </div>
+			</div>
 		</div>
+	</div>
 </section>
+
+<!-- <div class="page-container-flex">
+	<span class="js-social"></span>
+</div> -->
 
 
 
         <footer class="site-footer">
-	<div class="icons is-centered">
-		<a class="social-ico twitter" href="http://twitter.com/reubeningber" target="_blank"><i class="fa fa-twitter"></i></a>
+	<div class="page-container-flex">
+		<div class="icons is-centered">
+			<a class="social-ico twitter" href="http://twitter.com/reubeningber" target="_blank"><i class="fa fa-twitter"></i></a>
 
-		<a class="social-ico github" href="{{site.meta['Github']}}" target="_blank"><i class="fa fa-github"></i></a>
+			<a class="social-ico github" href="https://github.com/reubeningber" target="_blank"><i class="fa fa-github"></i></a>
 
-		<a class="social-ico email" href="mailto:reuben.ingber@gmail.com" target="_blank"><i class="fa fa-paper-plane"></i></a>
-		
-		<a class="social-ico podcast" href="http://howtoholdapencil.com" target="_blank"><i class="fa fa-microphone"></i></a>
-		
-		<a class="social-ico facebook" href="http://facebook.com/reubenaingber" target="_blank"><i class="fa fa-facebook"></i></a>
+			<a class="social-ico email" href="mailto:reuben.ingber@gmail.com" target="_blank"><i class="fa fa-paper-plane"></i></a>
+			
+			<a class="social-ico podcast" href="http://howtoholdapencil.com" target="_blank"><i class="fa fa-microphone"></i></a>
+			
+			<a class="social-ico facebook" href="http://facebook.com/reubenaingber" target="_blank"><i class="fa fa-facebook"></i></a>
 
-		<a class="social-ico instagram" href="http://instagram.com/reubeningber" target="_blank"><i class="fa fa-instagram"></i></a>
+			<a class="social-ico instagram" href="http://instagram.com/reubeningber" target="_blank"><i class="fa fa-instagram"></i></a>
+		</div>
+
+		<span class="credits is-centered">&copy; 2015 Reuben Ingber</span>
 	</div>
-
-	<span class="credits is-centered">&copy; 2015 Reuben Ingber</span>
 </footer>
-        
-    <script src="assets/js/built/vendor.min.js"></script>
-    <script src="assets/js/built/src.min.js"></script>
-
+        <script src="assets/js/vendor/jquery-1.11.1.min.js"></script>
+<script src="assets/js/vendor/imagesloaded.pkgd.min.js"></script>
+<script src="assets/js/vendor/masonry.pkgd.min.js"></script>
+<script src="assets/js/vendor/jquery.magnific-popup.min.js"></script>
+<script src="assets/js/vendor/jquery.fittext.js"></script>
+<script src="assets/js/vendor/cool-share.js"></script>
+<script src="assets/js/scripts.js"></script>
     </body>
 </html>

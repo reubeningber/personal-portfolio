@@ -2,6 +2,7 @@ $(document).ready(function() {
 	var $container = $('#project-container').masonry();
 	// layout Masonry again after all images have loaded
 	$container.imagesLoaded( function() {
+		$container.addClass('animated fadeIn');
 		$container.masonry({
 			gutter: 10,
 			itemSelector: '.project-item'
