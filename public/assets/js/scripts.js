@@ -1,12 +1,4 @@
-$(document).ready(function() {
-	// var $container = $('#project-container');
-	
-	// $container.masonry({
-	// 	columnWidth: 60,
-	// 	itemSelector: '.project-item',
-	// 	gutter: 10
-	// });
-	
+$(document).ready(function() {	
 	var $container = $('#project-container').masonry();
 	// layout Masonry again after all images have loaded
 	$container.imagesLoaded( function() {
@@ -30,14 +22,19 @@ $(document).ready(function() {
 		},
 	});
 
-	// FitText 
-	// Add class js-fit-text & Set the following data-attributes: data-fit-compressor="<compressor value>" data-fit-max-font-size=<size>px" data-fit-min-font-size="<size>px" 
-    $('.js-fittext').each(function() {
-        var $this = $(this),
-            fitCompressor = $this.data('fit-compressor') || 1,
-            fitMaxFontSize = $this.data('fit-max-font-size') || Number.POSITIVE_INFINITY,
-            fitMinFontSize = $this.data('fit-min-font-size') || Number.NEGATIVE_INFINITY;
- 
-            $this.fitText(fitCompressor, {maxFontSize: fitMaxFontSize, minFontSize: fitMinFontSize});
-    });
+	// Cool Share 
+
+    var url = 'http://reubeningber.com',
+        options = {
+            twitter: {
+                text: '@ReubenIngber Is a front end web developer looking for full time or freelance opportunities',
+                via: 'reubeningber'
+            },
+
+            facebook : true,
+            googlePlus : true
+        };
+
+    $('.js-social').shareButtons(url, options);
+
 });

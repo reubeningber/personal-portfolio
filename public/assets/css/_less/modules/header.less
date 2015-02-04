@@ -5,6 +5,7 @@
 
 .hd-left {
 	float: left;
+	width: 50%;
 }
 
 .hd-right {
@@ -16,6 +17,7 @@
 	margin: 0;
 	padding: 0;
 	line-height: .85;
+	width: 80%;
 
 	a {
 		font-family: @droid-sans;
@@ -50,6 +52,39 @@
 		&.active {
 			a {
 				border-color: lighten(@blue, 10%)
+			}
+		}
+	}
+}
+
+@media screen and (max-width: @tablet-bp-w) {
+	.hd-left {
+		width: 100%;
+		text-align: center;
+		float: none;
+		margin: 0 0 20px 0;
+	}
+
+	.hd-right {
+		float: none;
+	}
+	.site-title {
+		.font-size-rems(48);
+		width: 100%;
+	}
+
+	.site-nav {
+		display: block;
+		height: auto;
+
+		ul {
+			display: block;
+			margin:0 auto;
+			text-align: center;
+
+			li {
+				float: none;
+				display: inline-block;
 			}
 		}
 	}

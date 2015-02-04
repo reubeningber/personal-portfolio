@@ -1,5 +1,8 @@
 {
     "globals": {
-        "siteTitle": "Reuben A. Ingber | Front-End Web Developer"
+        "siteTitle": "Reuben A. Ingber | Front-End Web Developer",
+        "siteDescription": "Reuben Ingber is a front end web developer and designer, currently looking for full time & freelance opportunities",
+        "siteUrl": "http://reubeningber.com",
+        "shareImg": "assets/img/reuben.jpg"
     }
 }
