@@ -22,20 +22,4 @@ $(document).ready(function() {
 			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
 		},
 	});
-
-	// Cool Share 
-
-    var url = 'http://reubeningber.com',
-        options = {
-            twitter: {
-                text: '@ReubenIngber Is a front end web developer looking for full time or freelance opportunities',
-                via: 'reubeningber'
-            },
-
-            facebook : true,
-            googlePlus : true
-        };
-
-    $('.js-social').shareButtons(url, options);
-
 });
